@@ -1,0 +1,115 @@
+.carousel-item{
+    height: 770px;
+}
+.carousel-inner .carousel-item:nth-child(1){
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("./images/bg-image/restaurant-slider-03.jpg");
+}
+.carousel-inner .carousel-item:nth-child(2){
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("./images/bg-image/restaurant-slider-02.jpg");
+}
+.carousel-inner .carousel-item:nth-child(3){
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("./images/bg-image/restaurant-slider-01.jpg");
+}
+
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+    position: absolute ;
+    right: 15%;
+ 
+    left: 15%;
+    
+    padding-bottom: 180px !important;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    font-family: "Poppins", sans-serif;
+    color: orange;
+}
+.mybtn button{
+    border-radius: 50px !important;
+    padding: 5px 20px;
+    background-color:transparent;
+    color: white;
+    border:2px solid white;
+    margin:10px;
+}
+.carousel-indicators [data-bs-target] {
+    height: 10px !important;
+    width: 10px !important ;
+    border-radius: 50%;
+}
+#btn{
+    border-radius: 50px !important;
+    padding: 5px 20px;
+    background-color:transparent;
+    color: black;
+    border:2px solid rgb(18, 18, 18);
+    margin:10px;
+}
+.abc{
+    margin:0px 40px ;
+}
+.xyz{
+    margin: 0px 60px;
+}
+.pqr{
+    margin: 0px 22px;
+}
+.port{
+    text-align: center;
+}
+.port p{
+
+    text-align: center;
+    margin: 0px 25%;
+}
+.creative{
+    text-align: center;
+}
+.creative p{
+    text-align: center;
+    margin: 0px 25%;
+}
+.card-body h5,.card-body p{
+
+   text-align: center;
+}
+.card1{
+    border: 2px solid red;
+}
+.iconss i{
+   margin:0 10px
+    
+}
+.bottles{
+    height: 25px;
+    width: 30%;
+}
+.cnc{
+    height: 25px;
+    width: 150px;
+    background-color: orange;
+    border-radius: none;
+    border-style:none;
+    color: white;
+}
+
+@media (min-width:768px) {
+    .power{
+        width: 100%;
+        display: flex;
+        background-color: blue;
+    }
+}
+
+
+
+
+
